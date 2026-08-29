@@ -2,4 +2,5 @@
 "github:afrigon/mc" = "latest"
 
 [tasks.server]
-run = 'MC_DISCORD_WEBHOOK="$(op read op://Personal/2fn3ikp3jj2yotvrlbd4resyjq/discord-webhook)" mc run -v'
+env = { MC_DISCORD_WEBHOOK = "{{ exec(command='op read op://Personal/2fn3ikp3jj2yotvrlbd4resyjq/discord-webhook') }}" }
+run = "mc run -v"
