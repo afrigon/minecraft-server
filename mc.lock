@@ -1,0 +1,59 @@
+[[mods]]
+name = "bluemap"
+version = "VTvifNPN"
+source = "modrinth"
+
+[[mods]]
+name = "bmarker"
+version = "yS3NdeSz"
+source = "modrinth"
+
+[[mods]]
+name = "carpet"
+version = "bGrLxJ8v"
+source = "modrinth"
+
+[[mods]]
+name = "carpet-tis-addition"
+version = "F5N4XeMq"
+source = "modrinth"
+
+[[mods]]
+name = "chunk-debug"
+version = "g0KW5J9N"
+source = "modrinth"
+
+[[mods]]
+name = "fabric-api"
+version = "lVXlbH4w"
+source = "modrinth"
+
+[[mods]]
+name = "fabric-language-kotlin"
+version = "bdhiINYC"
+source = "modrinth"
+
+[[mods]]
+name = "lithium"
+version = "UPNexAfy"
+source = "modrinth"
+
+[[mods]]
+name = "servux"
+version = "qMld6z1t"
+source = "modrinth"
+
+[[mods]]
+name = "silk"
+version = "JMCeeIMi"
+source = "modrinth"
+
+[[mods]]
+name = "spark"
+version = "iYFOl6lQ"
+source = "modrinth"
+
+[[mods]]
+name = "stackable-shulkers-fix"
+version = "umnE7SKQ"
+source = "modrinth"

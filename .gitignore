@@ -1,0 +1,9 @@
+.DS_Store
+
+/.java
+/.minecraft
+/instance
+/temp
+
+/mc.world.lock
+/mc.backup.lock

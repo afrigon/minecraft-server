@@ -1,0 +1,36 @@
+name = "x"
+description = "X Minecraft Server"
+
+[minecraft]
+version = "26.2"
+loader = "fabric"
+
+[server]
+gamemode = "survival"
+difficulty = "hard"
+hardcore = false
+seed = -1412583731547517931
+
+# Setting this to true indicates YOU have read and agree to the Minecraft EULA (https://aka.ms/MinecraftEULA).
+# This agreement is between you and Mojang/Microsoft.
+eula = true
+
+[backups]
+enabled = true
+frequency = "0 0 * * * *"
+
+[backups.storage]
+type = "local"
+path = "/mnt/data/mc"
+
+[mods]
+lithium = "UPNexAfy"
+servux = "qMld6z1t"
+carpet = "bGrLxJ8v"
+carpet-tis-addition = "F5N4XeMq"
+stackable-shulkers-fix = "umnE7SKQ"
+spark = "iYFOl6lQ"
+chunk-debug = "g0KW5J9N"
+bluemap = "VTvifNPN"
+bmarker = "yS3NdeSz"
+
