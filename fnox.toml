@@ -1,0 +1,6 @@
+[providers.op]
+type = "1password"
+vault = "Personal"
+
+[secrets]
+MC_DISCORD_WEBHOOK = { provider = "op", value = "2fn3ikp3jj2yotvrlbd4resyjq/discord-webhook" }
