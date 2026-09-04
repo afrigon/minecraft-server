@@ -1,6 +1,8 @@
+[settings]
+lockfile = true
+
 [tools]
 "github:afrigon/mc" = "latest"
 
 [tasks.server]
-env = { MC_DISCORD_WEBHOOK = "{{ exec(command='op read op://Personal/2fn3ikp3jj2yotvrlbd4resyjq/discord-webhook') }}" }
-run = "mc run -v"
+run = "fnox exec -- mc run -v"
